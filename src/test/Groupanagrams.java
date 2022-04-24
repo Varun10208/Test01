@@ -18,7 +18,7 @@ class Groupanagrams {
 		if(strs.length==0) 
 		{	return new ArrayList();}
 		
-		Map<String,List<String>> mp=new HashMap<>();
+		Map<String,List<String>> storemap=new HashMap<>();
 		for(String s:strs) {
 			char[] c=s.toCharArray();
 			Arrays.sort(c);
