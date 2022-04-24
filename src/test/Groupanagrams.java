@@ -10,7 +10,7 @@ import java.util.Map;
 //time complexity:O(NKLogK) 
 class Groupanagrams {
 	public static void main(String[] args) {
-		String[] strs = {"eat","tea","tan","ate","nat","bat"};
+		String[] strs = {"eat","tea","tan","ate","nat","bat","pop","ppo"};
 		System.out.println(groupAnagrams(strs));
 	}
 
