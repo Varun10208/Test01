@@ -1,4 +1,4 @@
-package salesforce;
+package SF;
 
 
 	// Java Solution

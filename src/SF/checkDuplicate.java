@@ -1,4 +1,4 @@
-package salesforce;
+package SF;
 
 import java.util.ArrayList;
 import java.util.HashSet;
