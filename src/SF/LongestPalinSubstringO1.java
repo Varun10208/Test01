@@ -40,7 +40,7 @@ public class LongestPalinSubstringO1 {
 	public static void main(String[] args)
 	{
 
-		String str = "forgeeksskeeglp1";//--i=2 low=2 ,high=13 lenght=high-low-1
+		String str = "am";//--i=2 low=2 ,high=13 lenght=high-low-1
 		System.out.println("Length is: "
 						+ longestPalSubstr(str));
 	}

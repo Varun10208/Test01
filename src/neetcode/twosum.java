@@ -8,7 +8,7 @@ public class twosum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] a=new int[] {3,5,2,1,7};
-       System.out.println(Arrays.toString(twosumcheck(a,15)));
+       System.out.println(Arrays.toString(twosumcheck(a,90)));
 	}
 	public static int[] twosumcheck(int[] a,int target) {
 		HashMap<Integer,Integer> hm=new HashMap<>();
@@ -17,6 +17,7 @@ public class twosum {
 			else
 				hm.put(a[i],i);
 		}
+		//throw new IllegalArgumentException("No solution exists for two sum");
 		return new int[] {};
 	}
 

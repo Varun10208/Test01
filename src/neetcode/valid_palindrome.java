@@ -8,7 +8,6 @@ System.out.println (checkPalindrome("maLAya    lam  "));
 	}
 	public static boolean checkPalindrome(String a) {
 		
-	StringBuilder original = new StringBuilder(a);
 //	char c[]=a.toCharArray();
 	/*	for(char b:c) {
 			if(Character.isLetterOrDigit(b)) {
@@ -16,7 +15,7 @@ System.out.println (checkPalindrome("maLAya    lam  "));
 				
 			}
 		} */
-		 original= new StringBuilder(original.toString().replace(" ", "").toLowerCase());  
+	 StringBuilder original= new StringBuilder(a.replace(" ", "").toLowerCase());  
 		 String finalstr= original.toString();
 		 return finalstr.equals(original.reverse().toString());
 		 

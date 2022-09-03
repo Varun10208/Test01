@@ -7,7 +7,7 @@ public class validanagram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(checkanagram("",""));
+		System.out.println(checkanagram("brob","bbo"));
 
 	}
 	public static boolean checkanagram(String a,String b) {

@@ -9,13 +9,14 @@ public class chekduplicates {
 	public static void returndup(int arr[]) {
 		Map<Integer,Integer> mp= new HashMap<>();
 		for(int i=0;i<arr.length;i++) {
-			if(mp.containsKey(arr[i])) {
+		mp.put(arr[i],mp.getOrDefault(arr[i],0)+1);
+	/*		if(mp.containsKey(arr[i])) {
 				int k=mp.get(arr[i])+1;
 				mp.put(arr[i], k);
 			}
 			else {
 				mp.put(arr[i], 1);
-			}
+			} */
 		}
 		for(int p : mp.keySet()) {
 			if(mp.get(p)>1) {

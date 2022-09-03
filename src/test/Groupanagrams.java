@@ -22,7 +22,7 @@ class Groupanagrams {
 		for(String s:strs) {
 			char[] c=s.toCharArray();
 			Arrays.sort(c);
-			String k=String.valueOf(c);
+			String k=Arrays.toString(c);
 			if(!mp.containsKey(k)) {
 				mp.put(k, new ArrayList<String>());
 				mp.get(k).add(s);
@@ -31,7 +31,7 @@ class Groupanagrams {
 				mp.get(k).add(s);
 			}
 		}
-		System.out.println(mp);
+	//	System.out.println(mp);
 		return new ArrayList(mp.values());
 		
 		

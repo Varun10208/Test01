@@ -1,6 +1,8 @@
 package test;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class testBold {
 
@@ -8,7 +10,7 @@ public class testBold {
 		// TODO Auto-generated method stub
            String a="ABC DE F GHIJ";
            String c1="My Name is Varun My is";
-         HashMap<String,Integer> hm=new HashMap<>();
+         Map<String,Integer> hm=new LinkedHashMap<>();
          String[] c1a = c1.split(" ");
            for(String s:c1a) {
         	   hm.put(s, hm.getOrDefault(s,0)+1);

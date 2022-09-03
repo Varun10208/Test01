@@ -17,7 +17,7 @@ System.out.println(group(new String[]{"listen","silent","dam","mad","bat","tab"}
 		for(String s:a) {
 			char[] c=s.toCharArray();
 			Arrays.sort(c);
-			String k=String.valueOf(c);
+			String k=Arrays.toString(c);
 			if(hm.containsKey(k)) hm.get(k).add(s);
 			else {hm.put(k, new ArrayList<>());
 			hm.get(k).add(s);}
